@@ -16,7 +16,7 @@ jobs:
         java-version: '17'
         distribution: 'temurin'
         cache: maven
-    - name: Build with Maven
+    - name: Build with Mavena
       run: mvn compile
       
   security-check:
