@@ -118,6 +118,7 @@ jobs:
           
     - name: Debug Docker
       run: |
+       hostname -i
        whoami
        id
        groups
